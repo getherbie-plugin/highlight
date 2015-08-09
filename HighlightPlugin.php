@@ -13,6 +13,8 @@ namespace herbie\plugin\highlight;
 
 use herbie\plugin\highlight\classes\HighlightExtension;
 
+include_once (__DIR__ . '/vendor/geshi-1.0.8.15/geshi.php');
+
 class HighlightPlugin extends \Herbie\Plugin
 {
 

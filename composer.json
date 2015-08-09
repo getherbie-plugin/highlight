@@ -4,8 +4,5 @@
     "description": "Highlight Plugin for Herbie.",
     "keywords": ["herbie", "plugin", "highlight", "geshi"],
     "type": "herbie-plugin",
-    "license": "BSD-3-Clause",
-    "require": {
-        "easybook/geshi": "1.0.8.13"
-    }
+    "license": "BSD-3-Clause"
 }
