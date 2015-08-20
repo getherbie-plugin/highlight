@@ -1,6 +1,8 @@
 # Herbie Highlight Plugin
 
-`Highlight` ist ein [Herbie](http://github.com/getherbie/herbie) Plugin, das den leistungsfähgien Code Syntaxhighlighter [GeSHi](http://qbnz.com/highlighter/) in deine Website einbindet.
+`Highlight` ist ein [Herbie](http://github.com/getherbie/herbie) Plugin, das den leistungsfähgien Code 
+Syntaxhighlighter [GeSHi](http://qbnz.com/highlighter/) in deine Website einbindet.
+
 
 ## Installation
 
@@ -14,34 +16,48 @@ Danach aktivierst du das Plugin in der Konfigurationsdatei.
         enable:
             - highlight
 
-Das Plugin stellt den Tag *{% code %}* zur Verfügung, den du in Seiten nutzen kannst.
+
+## Anwendung
+
+Das Plugin stellt dir den Shortcode [[code]] zur Verfügung, den du in deinen Seiteninhalten nutzen kannst. Als einzigen
+Parameter wird die Programmiersprache verlangt:
+
+    [[code javascript]
+    alert("Hello Herbie!");
+    [/code]]
 
 ## Beispiele
 
-    {% code javascript %}
+**Javascript**
+
+    [[code javascript]
     var i=10;
     for ( i = 1; i < foo; i++ )
     {
       alert i;
     }
-    {% endcode %}
+    [/code]]
 
-    {% code php %}
+**PHP**
+
+    [[code php]
     $foo = 45;
     for ( $i = 1; $i < $foo; $i++ )
     {
       echo "$foo<br>";
       --$foo;
     };
-    {% endcode %}
+    [/code]]
 
-    {% code python %}
+**Python**
+
+    [[code python]
     def main():
         print "Hallo Welt!"
 
     if __name__ == '__main__':
         main()
-    {% endcode %}
+    [/code]]
 
 
 ## Demo
