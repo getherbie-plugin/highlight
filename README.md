@@ -19,45 +19,45 @@ Danach aktivierst du das Plugin in der Konfigurationsdatei.
 
 ## Anwendung
 
-Das Plugin stellt dir den Shortcode [[code]] zur Verfügung, den du in deinen Seiteninhalten nutzen kannst. Als einzigen
+Das Plugin stellt dir den Shortcode [code] zur Verfügung, den du in deinen Seiteninhalten nutzen kannst. Als einzigen
 Parameter wird die Programmiersprache verlangt:
 
-    [[code javascript]
+    [code javascript]
     alert("Hello Herbie!");
-    [/code]]
+    [/code]
 
 ## Beispiele
 
 **Javascript**
 
-    [[code javascript]
+    [code javascript]
     var i=10;
     for ( i = 1; i < foo; i++ )
     {
       alert i;
     }
-    [/code]]
+    [/code]
 
 **PHP**
 
-    [[code php]
+    [code php]
     $foo = 45;
     for ( $i = 1; $i < $foo; $i++ )
     {
       echo "$foo<br>";
       --$foo;
     };
-    [/code]]
+    [/code]
 
 **Python**
 
-    [[code python]
+    [code python]
     def main():
         print "Hallo Welt!"
 
     if __name__ == '__main__':
         main()
-    [/code]]
+    [/code]
 
 
 ## Demo
