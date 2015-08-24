@@ -21,6 +21,10 @@ class HighlightPlugin
 
     public static function addTwigExtension($twig)
     {
+        include_once (__DIR__ . '/classes/HighlightExtension.php');
+        include_once (__DIR__ . '/classes/HighlightNode.php');
+        include_once (__DIR__ . '/classes/HighlightTokenParser.php');
+        include_once (__DIR__ . '/vendor/geshi-1.0.8.15/geshi.php');
         $twig->addExtension(new HighlightExtension());
     }
 
@@ -34,7 +38,7 @@ class HighlightPlugin
         include_once (__DIR__ . '/vendor/geshi-1.0.8.15/geshi.php');
 
         $name = empty($options[0]) ? 'text' : $options[0];
-        $geshi = new \GeSHi(trim($content), $name);
+        $geshi = new GeSHi(trim($content), $name);
         #$geshi->enable_line_numbers(GESHI_FANCY_LINE_NUMBERS);
         return sprintf(
             '<div class="highlight highlight-%s">%s</div>',

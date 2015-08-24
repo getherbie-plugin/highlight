@@ -9,8 +9,6 @@
  * file that was distributed with this source code.
  */
 
-namespace herbie\plugin\highlight\classes;
-
 class HighlightNode extends \Twig_Node
 {
     /**

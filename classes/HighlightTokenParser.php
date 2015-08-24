@@ -9,10 +9,6 @@
  * file that was distributed with this source code.
  */
 
-namespace herbie\plugin\highlight\classes;
-
-use Twig_Token;
-
 class HighlightTokenParser extends \Twig_TokenParser
 {
     /**
