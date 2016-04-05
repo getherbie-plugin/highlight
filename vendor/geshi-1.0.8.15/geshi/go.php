@@ -174,7 +174,7 @@ $language_data = array(
             'ogle.NoCurrentGoroutine', 'ogle.NotOnStack', 'ogle.Process',
             'ogle.ProcessNotStopped', 'ogle.ReadOnlyError', 'ogle.RemoteMismatchError',
             'ogle.UnknownArchitecture', 'ogle.UnknownGoroutine', 'ogle.UsageError',
-            'os.Errno', 'os.Error', 'os.ErrorString', 'os.File', 'os.FileInfo',
+            'os.Errno', 'os.Error', 'os.ErrorString', 'os.File', 'os.PageFileInfo',
             'os.LinkError', 'os.PathError', 'os.SyscallError', 'os.Waitmsg', 'patch.Diff',
             'patch.File', 'patch.GitBinaryLiteral', 'patch.Op', 'patch.Set',
             'patch.SyntaxError', 'patch.TextChunk', 'patch.Verb', 'path.Visitor',
