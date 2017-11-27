@@ -1,6 +1,6 @@
 {
     "name": "getherbie/plugin-highlight",
-    "homepage": "http://www.getherbie.org",
+    "homepage": "https://www.getherbie.org",
     "description": "Highlight Plugin for Herbie.",
     "keywords": ["herbie", "plugin", "highlight", "geshi"],
     "type": "herbie-plugin",
